@@ -1,3 +1,17 @@
+body {
+    background-color: grey;
+    margin: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+.bggreen {
+    background-color: aquamarine;
+}
+
 .logo {
     margin: 0;
     padding: 25px;
@@ -7,6 +21,17 @@
 header {
     display: flex;
     align-items: center;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    border: 2px solid purple;
+    background-color: #fff;
+}
+
+.infopic {
+    padding: 10px;
 }
 
 ul {
@@ -22,3 +47,11 @@ ul > li > a {
     margin: 0;
 }
 
+.info {
+    display: flex;
+
+}
+
+.contact {
+    display: flex;
+}
