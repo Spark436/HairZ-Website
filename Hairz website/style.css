@@ -28,10 +28,12 @@ header {
     align-items: center;
     border: 2px solid purple;
     background-color: #fff;
+    margin-bottom: 60px;
+    margin-top: 60px;
 }
 
 .infopic {
-    padding: 10px;
+    border: 2px solid blue;
 }
 
 ul {
@@ -49,9 +51,14 @@ ul > li > a {
 
 .info {
     display: flex;
-
+    gap: 20px;
 }
 
 .contact {
     display: flex;
+}
+
+.featured {
+    border: 2px solid cyan;
+    background-color: #fff;
 }
