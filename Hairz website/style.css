@@ -56,9 +56,25 @@ ul > li > a {
 
 .contact {
     display: flex;
+    gap: 40px;
 }
 
 .featured {
     border: 2px solid cyan;
     background-color: #fff;
+}
+
+.foo {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.hairstyle {
+    display: flex;
+    flex-direction: column;
+}
+
+.baldman {
+    display: flex;
 }
